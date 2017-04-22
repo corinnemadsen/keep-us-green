@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html>
+<body>
+
+
 <style>
-body { font: 17px arial, sans-serif; background-color:#b3f79c; }
+body { font: 17px arial, sans-serif; background-color:#b3f79c; overflow: hidden; }
+
 .images {
 	text-align: center;
 	margin-top: 20px;
@@ -18,17 +22,36 @@ body { font: 17px arial, sans-serif; background-color:#b3f79c; }
 	margin-top: 20px;
 	background-color: #bfd4bf;
 	width: 100px;
-	height: 75px; }
-	ul { list-style-type: none; margin:0; padding:0; width:110px; background-color:#dbfbd0; border:1px;}
+	height: 75px;
+
+}
+
+.sidebar  {
+	position: absolute;
+	right: -200px;
+	top: 50px;
+	transition: right 1s;
+}
+
+.sidebar button {
+	top: 0;
+	position: absolute;
+	right: 200px;
+	
+}
+
+.visiblebar {
+	right: 0;
+}
+ul { list-style-type: none; margin:0; padding:0; width:110px; background-color:#dbfbd0; border:1px;}
 	li a { display:block; color:#000; padding:8px 16px; text-decoration: none; }
 	li a:hover { background-color:#89e06c; color:black; }
 
 </style>
-<body style="background-color:#b3f79c">
-
 
 <script type="text/javascript" src="./gamecode.js">
 </script>
+
 
 <ul style="float:left">
 	<li><a href="home.html">Home</a></li>
@@ -38,9 +61,9 @@ body { font: 17px arial, sans-serif; background-color:#b3f79c; }
 </ul>
 
 
+
 <div class="images"> 
 <img id="image1" src="http://nnimgt-a.akamaihd.net/transform/v1/resize/frm/storypad-qtXAEZC67LbMeemRuC2bYX/a1f06b16-a939-4567-b556-c85aaf00f085.jpg/w1200_h678_fmax.jpg" alt="Image 1" width="800" height="400" class="level2">
-
 </div>
 
 <div class="button_holder">
@@ -52,52 +75,13 @@ body { font: 17px arial, sans-serif; background-color:#b3f79c; }
 
 
 
+<div class="sidebar" id="swipebar">
+<button id="lebutton" type="button" onclick="sidebarFunction()"> <~~ Examples of levels </button>
+<img src="sidebarimage.jpg" width="200" height="500">
+</div>
+
+
+
 
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-function myFunction(rating){
-	console.log(rating);
-	var currentPicture = document.getElementById("image1");
-//Picks a random number from 1 - 4
-	var images = Math.floor(Math.random() * (4 - 1 + 1)) + 1;
-	console.log(images);
-
-	currentPicture.src = 
-
-}
