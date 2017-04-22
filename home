@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>keep us green-home</title>
+<style>
+	body {
+font: 17px arial, sans-serif; 
+}
+	.size1 {
+font-size: 20px;
+}
+	p {
+background-color: #e6fee6; margin-left: 2cm; border: 1px solid black;
+}
+</style>
+</head>
+<body bgcolor="#cefdce">
+<p class="size1">Welcome to Keep Us Green™</p>
+<p class=".round"> text lol<br> more text lolz<br> insert breif desc here</p> 
+
+
+</body>
+</html>
