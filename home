@@ -1,22 +1,28 @@
 <!DOCTYPE html>
 <html>
-<head>
 <title>keep us green-home</title>
+<head>
 <style>
-	body {
-font: 17px arial, sans-serif; 
-}
-	.size1 {
-font-size: 20px;
-}
-	p {
-background-color: #e6fee6; margin-left: 2cm; border: 1px solid black;
-}
+	body { font: 17px arial, sans-serif; background-color:#b3f79c; }
+	.size1 {font-size: 25px;}
+	p {background-color: #c7fcb5; margin-left: 3cm; border: 1px;}
+	ul { list-style-type: none; margin:0; padding:0; width:110px; background-color:#dbfbd0; border:1px;}
+	li a { display:block; color:#000; padding:8px 16px; text-decoration: none; }
+	li a:hover { background-color:#89e06c; color:black; }
+	.c {text-align: center;}
 </style>
 </head>
-<body bgcolor="#cefdce">
-<p class="size1">Welcome to Keep Us Green™</p>
-<p class=".round"> text lol<br> more text lolz<br> insert breif desc here</p> 
+
+<body>
+<p class="size1">Keep Us Green™</p>
+<ul style="float:left">
+	<li><a href="#home">Home</a></li>
+	<li><a href="#game">Game</a></li>
+	<li><a href="#about">About</a></li>
+	<li><a href="#contact">Contact</a></li>
+</ul>
+<p class="c"> <br> Welcome to Keep Us Green!<br>_________________________________________________________________________________________________________________________<br>
+<br>Learn about easy ways to help keep the world green and play games to earn points to get cool rewards!</p> 
 
 
 </body>
