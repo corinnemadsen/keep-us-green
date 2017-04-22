@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<body style="background-color: green">
+
+
+
+<style>
+.images {
+	text-align: center;
+	margin-top: 20px;
+}
+
+
+.button_holder {
+	text-align: center;
+}
+
+.button_holder button {
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 20px;
+	background-color: #bfd4bf;
+	width: 100px;
+	height: 75px;
+
+}
+
+</style>
+
+<script type="text/javascript" src="./gamecode.js">
+</script>
+
+
+
+<div class="images"> 
+<img id="image1" src="http://nnimgt-a.akamaihd.net/transform/v1/resize/frm/storypad-qtXAEZC67LbMeemRuC2bYX/a1f06b16-a939-4567-b556-c85aaf00f085.jpg/w1200_h678_fmax.jpg" alt="Image 1" width="800" height="400" class="level2">
+
+</div>
+
+<div class="button_holder">
+<button type="button" onclick="myFunction(1)"> Level 1 </button>
+<button type="button" onclick="myFunction(2)"> Level 2 </button>
+<button type="button" onclick="myFunction(3)"> Level 3 </button>
+<button type="button" onclick="myFunction(4)"> Level 4 </button>
+</div>
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function myFunction(rating){
+	console.log(rating);
+	var currentPicture = document.getElementById("image1");
+//Picks a random number from 1 - 4
+	var images = Math.floor(Math.random() * (4 - 1 + 1)) + 1;
+	console.log(images);
+
+	currentPicture.src = 
+
+}
